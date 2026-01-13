@@ -1,0 +1,12 @@
+.container {
+  width: 100%;
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 0 20px;
+  min-height: calc(100vh - 80px);
+  display: flex;
+  flex-direction: column;
+}
+
+/* If we want a card look for the content, we can wrap content in another div, 
+   but for Layout it usually handles the outer bounds. */

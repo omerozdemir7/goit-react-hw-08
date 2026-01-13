@@ -1,0 +1,22 @@
+.wrapper {
+  display: flex;
+  gap: 24px;
+}
+
+.link {
+  text-decoration: none;
+  color: var(--text-secondary);
+  font-weight: 500;
+  font-size: 16px;
+  padding: 8px 0;
+  transition: color 0.2s;
+}
+
+.link:hover {
+  color: var(--primary-color);
+}
+
+.active {
+  color: var(--primary-color);
+  font-weight: 600;
+}
