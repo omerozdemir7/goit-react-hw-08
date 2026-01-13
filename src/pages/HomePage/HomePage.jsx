@@ -5,7 +5,7 @@ export default function HomePage() {
     <div className={css.container}>
       <h1 className={css.title}>
         Welcome to the Phonebook App
-        <span role="img" aria-label="greeting icon">💁‍♀️</span>
+        <span role="img" aria-label="greeting icon"></span>
       </h1>
     </div>
   );
